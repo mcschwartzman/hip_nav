@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="hippocamp_starter" name="compass" type="compass">
+  </node>
+
+  <node pkg="rviz" name="rviz" type="rviz" args="-d $(find hippocamp_starter)/rviz/compass_viz.rviz">
+  </node>
+
+</launch>

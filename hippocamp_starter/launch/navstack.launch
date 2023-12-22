@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="hippocamp_starter" name="navstack" type="navstack">
+  </node>
+
+  <node pkg="rviz" name="rviz" type="rviz" args="-d $(find hippocamp_starter)/rviz/navstack.rviz">
+  </node>
+
+</launch>
